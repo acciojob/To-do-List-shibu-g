@@ -1,8 +1,8 @@
 //your code here
 
-var to=document.getElementById('inp');
-var btn=document.getElementById('btn');
-var ol=document.getElementById('list');
+var to=document.getElementById('newTodoInput');
+var btn=document.getElementById('addTodoBtn');
+var ol=document.getElementById('todoList');
 function add() {
 if(to.value){
 	var li=document.createElement('li');
