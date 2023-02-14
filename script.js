@@ -1,7 +1,7 @@
 //your code here
 
 var to=document.getElementById('inp');
-var btn=documet.getElementById('btn');
+var btn=document.getElementById('btn');
 var ol=document.getElementById('list');
 function add() {
 if(to.value){
